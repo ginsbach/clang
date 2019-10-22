@@ -3,7 +3,7 @@ set( LLVM_LINK_COMPONENTS
   Analysis
   CodeGen
   Core
-  IDLPasses
+  CAnDLPasses
   IPO
   AggressiveInstCombine
   InstCombine
