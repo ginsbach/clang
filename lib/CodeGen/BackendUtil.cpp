@@ -354,7 +354,7 @@ static void addSymbolRewriterPass(const CodeGenOptions &Opts,
 // My custom research stuff.
 static void addConstraintResearchPasses(const PassManagerBuilder &Builder,
                                         legacy::PassManagerBase &PM) {
-  PM.add(createResearchFlangfixPass());
+//  PM.add(createResearchFlangfixPass());
   PM.add(createResearchPreprocessorPass());
   PM.add(createDeadCodeEliminationPass());
   PM.add(createLICMPass());
